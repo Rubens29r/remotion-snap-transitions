@@ -1,0 +1,43 @@
+{
+  "name": "remotion-snap-transitions",
+  "version": "0.1.0",
+  "description": "Fast cut transitions for Remotion, measured on hand-edited short-form videos: flash, whip, mirror slide, zoom blur, bullet, VHS.",
+  "license": "MIT",
+  "author": "Rubens29r",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rubens29r/remotion-snap-transitions"
+  },
+  "keywords": [
+    "remotion",
+    "transitions",
+    "video",
+    "react",
+    "shorts",
+    "tiktok"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "demo": "remotion studio example/index.ts",
+    "render-demo": "remotion render example/index.ts Demo out/demo.mp4",
+    "prepare": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "remotion": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0",
+    "typescript": "^5.6.0"
+  }
+}
