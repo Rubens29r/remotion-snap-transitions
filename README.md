@@ -10,9 +10,9 @@ Measured frame by frame on hand-edited videos, not eyeballed.
 ![Zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![One file](https://img.shields.io/badge/source-1%20file-lightgrey)
 
-<img src="media/demo.gif" alt="flash, flash-full, whip, mirror-slide, zoom-blur, bullet and vhs, one per cut" width="560">
+<img src="media/demo.gif" alt="flash, flash-full, whip, mirror-slide, zoom-blur, bullet and vhs, one per cut" width="480">
 
-<sub>Each shot is named after the transition that brings it in. Rendered with <code>npm run render-demo</code>.</sub>
+<sub>Each shot is named after the transition that brings it in. Graphics only, rendered with <code>npm run render-demo</code>.</sub>
 
 </div>
 
